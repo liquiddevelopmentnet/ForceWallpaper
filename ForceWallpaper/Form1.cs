@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
 using System.Windows.Forms;
 
 namespace ForceWallpaper
@@ -27,7 +21,7 @@ namespace ForceWallpaper
             InitializeComponent();
         }
 
-        private void e_Load(object sender, EventArgs e)
+        private void E_Load(object sender, EventArgs e)
         {
             
         }
@@ -72,7 +66,7 @@ namespace ForceWallpaper
                     {
                         _ = openFileDialog.OpenFile();
                     }
-                    catch (FileNotFoundException ex)
+                    catch (FileNotFoundException)
                     {
                         MessageBox.Show("The Specified File does not exist.", "ForceWallpaper", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;

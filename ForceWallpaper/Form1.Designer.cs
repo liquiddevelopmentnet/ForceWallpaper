@@ -89,7 +89,7 @@ namespace ForceWallpaper
             this.MaximizeBox = false;
             this.Name = "ForceWallpaper";
             this.Opacity = 0.95D;
-            this.Load += new System.EventHandler(this.e_Load);
+            this.Load += new System.EventHandler(this.E_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
